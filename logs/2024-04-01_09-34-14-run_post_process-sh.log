@@ -1,0 +1,48 @@
+/Volumes/Media/Jellyfin/Recordings/Series/Cook's Country/Season 16/Cook's Country S16E11 New Mexican Bounty.ts
+ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 14.0.0 (clang-1400.0.29.102)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mpeg2video @ 0x7f78db704c00] Invalid frame dimensions 0x0.
+    Last message repeated 6 times
+[mpegts @ 0x7f78dd104100] PES packet size mismatch
+[mpegts @ 0x7f78dd104100] Packet corrupt (stream = 1, dts = 918940540).
+[mpegts @ 0x7f78dd104100] PES packet size mismatch
+[mpegts @ 0x7f78dd104100] Packet corrupt (stream = 2, dts = 918943296).
+Input #0, mpegts, from '/Volumes/Media/Jellyfin/Recordings/Series/Cook's Country/Season 16/Cook's Country S16E11 New Mexican Bounty.ts':
+  Duration: 00:00:07.50, start: 10203.569067, bitrate: 2625 kb/s
+  Program 5 
+  Stream #0:0[0x51]: Video: mpeg2video (Main) ([2][0][0][0] / 0x0002), yuv420p(tv, smpte170m, top first), 720x480 [SAR 32:27 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 15000000/0/0 buffer size: 1835008 vbv_delay: N/A
+  Stream #0:1[0x54](eng): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, stereo, fltp, 192 kb/s
+  Stream #0:2[0x55](spa): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, stereo, fltp, 128 kb/s (visual impaired) (descriptions)
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg2video (native) -> h264 (h264_videotoolbox))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[h264_videotoolbox @ 0x7f78dd1050c0] Transfer function smpte170m is not supported.
+[mp4 @ 0x7f78dd007600] track 1: codec frame size is not set
+Output #0, mp4, to '/Volumes/Media/Jellyfin/Recordings/Series/Cook's Country/Season 16/Cook's Country S16E11 New Mexican Bounty.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, smpte170m, top coded first (swapped)), 720x480 [SAR 32:27 DAR 16:9], q=2-31, 3000 kb/s, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc59.37.100 h264_videotoolbox
+  Stream #0:1(eng): Audio: ac3 (ac-3 / 0x332D6361), 48000 Hz, stereo, fltp, 192 kb/s
+frame=   31 fps=0.0 q=-0.0 size=       0kB time=00:00:00.80 bitrate=   0.5kbits/s dup=30 drop=0 speed= 256x    frame=  209 fps=0.0 q=-0.0 size=    2560kB time=00:00:06.74 bitrate=3111.5kbits/s dup=30 drop=0 speed=13.4x    [mpegts @ 0x7f78dd104100] PES packet size mismatch
+[mpegts @ 0x7f78dd104100] Packet corrupt (stream = 1, dts = 918940540).
+/Volumes/Media/Jellyfin/Recordings/Series/Cook's Country/Season 16/Cook's Country S16E11 New Mexican Bounty.ts: corrupt input packet in stream 1
+[mpeg2video @ 0x7f78dd005b40] invalid cbp -1 at 20 8
+[mpeg2video @ 0x7f78dd005b40] Warning MVs not available
+[mpeg2video @ 0x7f78dd005b40] concealing 990 DC, 990 AC, 990 MV errors in B frame
+/Volumes/Media/Jellyfin/Recordings/Series/Cook's Country/Season 16/Cook's Country S16E11 New Mexican Bounty.ts: corrupt decoded frame in stream 0
+frame=  225 fps=0.0 q=-0.0 Lsize=    3145kB time=00:00:07.47 bitrate=3447.5kbits/s dup=32 drop=0 speed=  14x    
+video:2979kB audio:162kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.157500%

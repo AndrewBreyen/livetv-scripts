@@ -1,0 +1,47 @@
+/Volumes/Media/Jellyfin/Recordings/Movies/Secrets of Her Majesty's Secret Service/Secrets of Her Majesty's Secret Service 2024_04_01_00_00_00.ts
+ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 14.0.0 (clang-1400.0.29.102)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mpeg2video @ 0x7f79a37052c0] Invalid frame dimensions 0x0.
+    Last message repeated 10 times
+[mpegts @ 0x7f79a4005000] PES packet size mismatch
+[mpegts @ 0x7f79a4005000] Packet corrupt (stream = 1, dts = 874246912).
+[mpegts @ 0x7f79a4005000] PES packet size mismatch
+[mpegts @ 0x7f79a4005000] Packet corrupt (stream = 2, dts = 874250872).
+Input #0, mpegts, from '/Volumes/Media/Jellyfin/Recordings/Movies/Secrets of Her Majesty's Secret Service/Secrets of Her Majesty's Secret Service 2024_04_01_00_00_00.ts':
+  Duration: 00:00:49.92, start: 9664.414578, bitrate: 5483 kb/s
+  Program 3 
+  Stream #0:0[0x31]: Video: mpeg2video (Main) ([2][0][0][0] / 0x0002), yuv420p(tv, bt709, top first), 1920x1080 [SAR 1:1 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 80000000/0/0 buffer size: 9781248 vbv_delay: N/A
+  Stream #0:1[0x34](eng): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, 5.1(side), fltp, 384 kb/s
+  Stream #0:2[0x35](spa): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg2video (native) -> h264 (h264_videotoolbox))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[mp4 @ 0x7f79a4006840] track 1: codec frame size is not set
+Output #0, mp4, to '/Volumes/Media/Jellyfin/Recordings/Movies/Secrets of Her Majesty's Secret Service/Secrets of Her Majesty's Secret Service 2024_04_01_00_00_00.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, top coded first (swapped)), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 3000 kb/s, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc59.37.100 h264_videotoolbox
+  Stream #0:1(eng): Audio: ac3 (ac-3 / 0x332D6361), 48000 Hz, 5.1(side), fltp, 384 kb/s
+frame=   25 fps=0.0 q=-0.0 size=     256kB time=00:00:00.60 bitrate=3492.3kbits/s dup=24 drop=0 speed=86.1x    frame=   37 fps=0.0 q=-0.0 size=     256kB time=00:00:01.00 bitrate=2095.4kbits/s dup=24 drop=0 speed=1.94x    frame=  103 fps=101 q=-0.0 size=    1280kB time=00:00:03.20 bitrate=3273.6kbits/s dup=24 drop=0 speed=3.14x    frame=  210 fps=138 q=-0.0 size=    2560kB time=00:00:06.77 bitrate=3096.2kbits/s dup=24 drop=0 speed=4.44x    frame=  303 fps=150 q=-0.0 size=    4608kB time=00:00:09.87 bitrate=3822.1kbits/s dup=24 drop=0 speed=4.88x    frame=  399 fps=158 q=-0.0 size=    5888kB time=00:00:13.07 bitrate=3687.8kbits/s dup=24 drop=0 speed=5.18x    frame=  502 fps=166 q=-0.0 size=    7168kB time=00:00:16.51 bitrate=3555.3kbits/s dup=24 drop=0 speed=5.45x    frame=  610 fps=173 q=-0.0 size=    8704kB time=00:00:20.12 bitrate=3543.9kbits/s dup=24 drop=0 speed= 5.7x    frame=  717 fps=178 q=-0.0 size=    9728kB time=00:00:23.69 bitrate=3363.9kbits/s dup=24 drop=0 speed=5.87x    frame=  822 fps=181 q=-0.0 size=   11520kB time=00:00:27.20 bitrate=3469.6kbits/s dup=24 drop=0 speed=5.99x    frame=  919 fps=182 q=-0.0 size=   12800kB time=00:00:30.43 bitrate=3445.8kbits/s dup=24 drop=0 speed=6.04x    frame= 1020 fps=184 q=-0.0 size=   13824kB time=00:00:33.80 bitrate=3350.4kbits/s dup=24 drop=0 speed= 6.1x    frame= 1122 fps=186 q=-0.0 size=   15360kB time=00:00:37.21 bitrate=3381.1kbits/s dup=24 drop=0 speed=6.16x    frame= 1230 fps=188 q=-0.0 size=   16896kB time=00:00:40.80 bitrate=3391.8kbits/s dup=24 drop=0 speed=6.24x    frame= 1329 fps=189 q=-0.0 size=   18176kB time=00:00:44.11 bitrate=3375.6kbits/s dup=24 drop=0 speed=6.26x    frame= 1428 fps=189 q=-0.0 size=   19968kB time=00:00:47.41 bitrate=3450.0kbits/s dup=24 drop=0 speed=6.28x    [mpegts @ 0x7f79a4005000] PES packet size mismatch
+[mpegts @ 0x7f79a4005000] Packet corrupt (stream = 1, dts = 874246912).
+/Volumes/Media/Jellyfin/Recordings/Movies/Secrets of Her Majesty's Secret Service/Secrets of Her Majesty's Secret Service 2024_04_01_00_00_00.ts: corrupt input packet in stream 1
+overread 8
+[mpeg2video @ 0x7f79a4005280] Warning MVs not available
+[mpeg2video @ 0x7f79a4005280] concealing 4757 DC, 4757 AC, 4757 MV errors in P frame
+/Volumes/Media/Jellyfin/Recordings/Movies/Secrets of Her Majesty's Secret Service/Secrets of Her Majesty's Secret Service 2024_04_01_00_00_00.ts: corrupt decoded frame in stream 0
+frame= 1496 fps=186 q=-0.0 size=   20992kB time=00:00:49.68 bitrate=3461.3kbits/s dup=27 drop=0 speed=6.17x    frame= 1496 fps=185 q=-0.0 Lsize=   21356kB time=00:00:49.88 bitrate=3507.2kbits/s dup=27 drop=0 speed=6.17x    
+video:19011kB audio:2318kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.125611%

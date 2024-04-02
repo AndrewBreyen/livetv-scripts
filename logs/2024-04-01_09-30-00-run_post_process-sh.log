@@ -1,0 +1,48 @@
+/Volumes/Media/JellyfinResordings/Series/French Magnolia Cooks/Season 1/French Magnolia Cooks S01E05 Dove.ts
+ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 14.0.0 (clang-1400.0.29.102)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mpeg2video @ 0x7fb7be904b40] Invalid frame dimensions 0x0.
+    Last message repeated 2 times
+[mpegts @ 0x7fb7bdf05500] PES packet size mismatch
+[mpegts @ 0x7fb7bdf05500] Packet corrupt (stream = 1, dts = 896093500).
+[mpegts @ 0x7fb7bdf05500] PES packet size mismatch
+[mpegts @ 0x7fb7bdf05500] Packet corrupt (stream = 2, dts = 896096256).
+Input #0, mpegts, from '/Volumes/Media/JellyfinResordings/Series/French Magnolia Cooks/Season 1/French Magnolia Cooks S01E05 Dove.ts':
+  Duration: 00:00:10.42, start: 9946.930444, bitrate: 1634 kb/s
+  Program 5 
+  Stream #0:0[0x51]: Video: mpeg2video (Main) ([2][0][0][0] / 0x0002), yuv420p(tv, smpte170m, top first), 720x480 [SAR 32:27 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 15000000/0/0 buffer size: 1835008 vbv_delay: N/A
+  Stream #0:1[0x54](eng): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, stereo, fltp, 192 kb/s
+  Stream #0:2[0x55](spa): Audio: ac3 ([129][0][0][0] / 0x0081), 48000 Hz, stereo, fltp, 128 kb/s (visual impaired) (descriptions)
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg2video (native) -> h264 (h264_videotoolbox))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[h264_videotoolbox @ 0x7fb7be907a00] Transfer function smpte170m is not supported.
+[mp4 @ 0x7fb7be906b00] track 1: codec frame size is not set
+Output #0, mp4, to '/Volumes/Media/JellyfinResordings/Series/French Magnolia Cooks/Season 1/French Magnolia Cooks S01E05 Dove.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, smpte170m, top coded first (swapped)), 720x480 [SAR 32:27 DAR 16:9], q=2-31, 3000 kb/s, 29.97 fps, 30k tbn
+    Metadata:
+      encoder         : Lavc59.37.100 h264_videotoolbox
+  Stream #0:1(eng): Audio: ac3 (ac-3 / 0x332D6361), 48000 Hz, stereo, fltp, 192 kb/s
+frame=   32 fps=0.0 q=-0.0 size=       0kB time=00:00:00.83 bitrate=   0.5kbits/s dup=31 drop=0 speed= 188x    frame=  101 fps=0.0 q=-0.0 size=    1024kB time=00:00:03.13 bitrate=2674.6kbits/s dup=31 drop=0 speed=6.21x    [mpegts @ 0x7fb7bdf05500] PES packet size mismatch
+[mpegts @ 0x7fb7bdf05500] Packet corrupt (stream = 1, dts = 896093500).
+/Volumes/Media/JellyfinResordings/Series/French Magnolia Cooks/Season 1/French Magnolia Cooks S01E05 Dove.ts: corrupt input packet in stream 1
+[mpeg2video @ 0x7fb7be905180] ac-tex damaged at 37 27
+[mpeg2video @ 0x7fb7be905180] Warning MVs not available
+[mpeg2video @ 0x7fb7be905180] concealing 135 DC, 135 AC, 135 MV errors in P frame
+/Volumes/Media/JellyfinResordings/Series/French Magnolia Cooks/Season 1/French Magnolia Cooks S01E05 Dove.ts: corrupt decoded frame in stream 0
+frame=  312 fps=0.0 q=-0.0 Lsize=    4014kB time=00:00:10.37 bitrate=3168.7kbits/s dup=34 drop=0 speed=10.4x    
+video:3780kB audio:227kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.159490%
