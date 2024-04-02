@@ -5,6 +5,16 @@ import time
 from pathlib import Path
 from time import strftime
 
+
+
+from dotenv import load_dotenv, dotenv_values 
+
+load_dotenv()
+
+print(os.getenv("TESTENV"))
+
+
+
 # /path/to/series/show/season/vid.ext
 file_path = sys.argv[1]
 

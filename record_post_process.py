@@ -92,7 +92,7 @@ def main():
     out_path = vid_dir + "/" + out_file
 
     # /path/to/OLDFILES
-    move_to = str(Path(file_path).parents[2]) + "/OLDFILES"
+    move_to = "/Volumes/Media/Jellyfin/OLDFILES"
 
     # /path/to/OLDFILES/BAK_vid.ext
     bak_file_path = move_to + "/BAK_" + file_name
