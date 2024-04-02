@@ -128,8 +128,9 @@ def main():
         os.system(command)
     except Exception as exception:
         remove_react("beachball", timestamp)
+        add_react("warning", timestamp)
         send_reply_message(
-            f"Error ocurred while processing `{filename}`!",
+            f"Error ocurred while processing `{file_path}`!",
             timestamp,
         )
         error_ocurred(exception, timestamp)
